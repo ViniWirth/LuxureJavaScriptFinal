@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luxure.com</title>
+        <script async src="menu.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="author" content="luxure">
+        <meta name="description" content="joalheria sotisficada online">
+        <meta name="keywords" content="luxo, joias, colares, colar, brincos, brinco, relogio, relogios, rolex, aneis, anel, compras, joalheria">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1><img src="imgs/logo.png" alt="logo da loja LUXURE" class="logo"></h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="produtos.html" class="nav-link">Catálogo</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="login.html">Entrar</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="imgs/imgmenu.png" alt="icone de menu"></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="produtos.html" class="nav-link">Catálogo</a></li>
+                </ul>
+                <div class="login-button">
+                    <button><a href="login.html">Entrar</a></button>
+                </div>
+            </div>
+        </header>
+
+        
+        <div id="paginaInicial">
+            <div id="imagemEGifDiv">
+                <img src="imgs/imagemRelogioDourado.jpg" alt="Relógio da marca rolex exposto sob apoio de madeira feito com prata e detalhes em ouro." id="imgRelogioDourado"> 
+                <div class="dentroImagem">
+                    <h2><b>RELÓGIOS DE LUXO</b></h2>
+                    <p><b>Descubra a elegância suprema dos relógios sofisticados e importados em nossa joalheria, com marcas famosas e originais do mundo todo!</b></p>
+                </div>
+            </div>
+            <div id="imgAcessoriosDiv"> 
+                <div class="dentroImagemAcessorios">
+                    <p><b>Acessórios importados que irão fazer você se sentir um LUXO!</b></p>
+                </div>
+                <img src="imgs/imgAcessorios.jpg" alt=”colares, pulseiras, aneis e brincos feitos de ouro exposto sob fundo rosa.”
+ id="imgAcessorios">
+            </div>
+            <div class="swiffy-slider">
+                <div id="lancamentosDiv">
+                    <h2 id="lancamentos"><b>LANÇAMENTOS E NOVIDADES</b></h2>
+                </div>
+                <ul class="slider-container">
+                    <li><img src="imgs/imgCarro1.jpg" alt="Colar de prata com pedra de esmeralda exposto sobre a mesa com foco no pingente." class="imgCarrossel"></li>
+                    <li><img src="imgs/imgCarro2.png" alt="Cobra banhada em ouro no formato de e comercial jorrando ouro derretido de sua boca." class="imgCarrossel"></li>
+                    <li><img src="imgs/imgCarro3.jpg" alt="Anel feito de ouro com pedra de diamante" class="imgCarrossel"></li>
+                </ul>
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>  
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                  <p>&copy; 2023 Luxure - Todos os direitos reservados.</p>
+                  <ul id="ulFooter">
+                    <li>Termos de Serviço</li>
+                    <li>Política de Privacidade</li>
+                    <li>Contato <a href="https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></a>
+                    </ion-icon> <a href="https://pt-br.facebook.com/login/device-based/regular/login/"><ion-icon name="logo-facebook"></a></ion-icon></li>
+                  </ul>
+                </div>
+            </footer>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
